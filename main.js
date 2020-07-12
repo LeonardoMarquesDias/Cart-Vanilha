@@ -23,6 +23,7 @@ const produtos = [
 ];
 
 function renderizaProduto(produto) {
+  console.log(produto)
   return `
     <div class="col-sm-4 mb-3">
       <div class="card">
@@ -39,16 +40,14 @@ function renderizaProduto(produto) {
     </div>
   `
 }
+
 document.querySelector('.loja').innerHTML = renderizaProdutos();
 
 function renderizaProdutos() {
   let html = '';
   for (let i = 0; i < produtos.length; i++) {
-    console.log(renderizaProduto());
-    html = html + renderizaProduto(produtos[i]);
+   html = html + renderizaProduto(produtos[i]);
   }
   return html;
 }
-
-renderizaProdutos();
 
