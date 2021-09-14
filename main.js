@@ -1,25 +1,25 @@
 const produtos = [
-    {
-      id: 'abc123',
-      nome: 'JSRaiz no GitHub',
-      preco: 300,
-      descricao: 'Exercitando',
-      imagem: 'http://lorempixel.com/400/200'
-    },
-    {
-      id: 'bbc123',
-      nome: 'JSRaiz no GitHub',
-      preco: 1200,
-      descricao: 'Exercitando',
-      imagem: 'http://lorempixel.com/400/200'
-    },
-    {
-      id: 'cbc123',
-      nome: 'JSRaiz no GitHub',
-      preco: 500,
-      descricao: 'Exercitando',
-      imagem: 'http://lorempixel.com/400/200'
-    }
+  {
+    id: 'abc123',
+    nome: 'JSRaiz no GitHub',
+    preco: 300,
+    descricao: 'Exercitando',
+    imagem: 'http://lorempixel.com/400/200'
+  },
+  {
+    id: 'bbc123',
+    nome: 'JSRaiz no GitHub',
+    preco: 1200,
+    descricao: 'Exercitando',
+    imagem: 'http://lorempixel.com/400/200'
+  },
+  {
+    id: 'cbc123',
+    nome: 'JSRaiz no GitHub',
+    preco: 500,
+    descricao: 'Exercitando',
+    imagem: 'http://lorempixel.com/400/200'
+  }
 ];
 
 const carrinhoItens = {};
